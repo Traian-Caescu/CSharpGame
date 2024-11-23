@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Enemy.jpg" />
+    <None Remove="Images\Exit.jpg" />
+    <None Remove="Images\Player.jpg" />
+    <None Remove="Images\Police.jpg" />
+    <None Remove="Images\Wall.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Enemy.jpg" />
+    <Resource Include="Images\Exit.jpg" />
+    <Resource Include="Images\Player.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Police.jpg" />
+    <Resource Include="Images\Wall.jpg" />
+  </ItemGroup>
+
+</Project>
