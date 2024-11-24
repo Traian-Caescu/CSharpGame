@@ -7,7 +7,7 @@
         <Canvas x:Name="GameCanvas" Background="Black" Width="1250" Height="750" />
 
         <!-- Score and Timer Display -->
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"> 
             <TextBlock x:Name="ScoreText" FontSize="20" Foreground="White" Margin="0,0,20,0" />
             <TextBlock x:Name="TimerText" FontSize="20" Foreground="White" />
         </StackPanel>
